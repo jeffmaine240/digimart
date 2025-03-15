@@ -1,6 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .config import config
+import uvicorn
+
+
+from src.api.core.config import config
+from src.api.v1.routes import api_version_one
 
 
 version = config.VERSION
@@ -22,3 +26,5 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.include_router(api_version_one)
