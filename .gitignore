@@ -1,3 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual Environments
 env/
 jeff.py
 .env
+
+# Logs & Debugging
+logs/
+*.log
+*.out
+*.err
+debug.log
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+
+# Dependency Files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Build & Distribution
+dist/
+build/
+*.egg
+*.whl
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Pre-commit cache
+.pre-commit-cache/
+
+# Testing & Coverage
+.coverage
+htmlcov/
+pytest_cache/
+nosetests.xml
+coverage.xml
+junit.xml
+
+# Database & Storage
+*.sqlite3
+*.db
+instance/
+media/
+staticfiles/
+# FastAPI & Uvicorn
+*.pid
+*.sock
+/uploads

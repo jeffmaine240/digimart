@@ -1,17 +1,28 @@
 {
     "cSpell.words": [
         "autoflush",
+        "backref",
         "checkpw",
         "digimart",
         "gensalt",
         "GOCSPX",
         "googleusercontent",
         "hashpw",
+        "htmlcov",
+        "jsonable",
         "macbook",
         "nllrkw",
+        "nosetests",
         "ondelete",
         "onupdate",
+        "Pipfile",
+        "poolclass",
+        "pycache",
+        "pytest",
         "rjsjdahtetabhjr",
-        "sessionmaker"
+        "sessionmaker",
+        "staticfiles",
+        "uselist",
+        "Uvicorn"
     ]
 }
